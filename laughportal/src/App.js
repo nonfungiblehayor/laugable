@@ -1,12 +1,14 @@
 import './App.css';
 import Header from './components/header';
 import Body from './components/body';
+import Wallet from './components/wallet';
 
 function App() {
   return (
     <div className="App">
       <Header /> 
-      <Body />    
+      <Body /> 
+      <Wallet />   
     </div>
   );
 }
