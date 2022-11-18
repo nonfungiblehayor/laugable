@@ -313,4 +313,163 @@
     color: black;
     padding: 15px;
   }
+}
+@media screen and (max-width: 768px) and (min-width: 582px) {
+  .App {
+    padding: 0;
+    margin: 0;
+    background-color: #24262D;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/Ellipse\ 11.svg);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position-x: 70px;
+    background-position-y: 70px;
+  }
+  .App header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    padding-right: 50px;
+  }
+  .App header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    padding: 15px;
+    justify-content: center;
+    gap: 8px;
+  }
+  .App header div img {
+    width: 30px;
+    height: 30px;
+  }
+  .App header div p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: "Inter Tight", sans-serif;
+  }
+  .App header button {
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 450px;
+    font-family: "Inter Tight", sans-serif;
+    color: #FFFFFF;
+  }
+  .App section {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+  .App section .round-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .App section .round-div nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 0px;
+    gap: 145px;
+    max-width: 100%;
+    margin-bottom: -60px;
+    transform: rotate(20deg);
+  }
+  .App section .round-div nav img {
+    width: 45.91px;
+    height: 45.88px;
+  }
+  .App section .round-div .round-emoji {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: -150px;
+  }
+  .App section .round-div .round-emoji img {
+    width: 168px;
+    height: 168px;
+  }
+  .App section .round-div .dot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -20px;
+    padding-left: 0;
+    margin-top: 80px;
+    gap: 150px;
+    max-width: 100%;
+    transform: rotate(20deg);
+  }
+  .App section .round-div .dot img {
+    width: 45.91px;
+    height: 45.88px;
+  }
+  .App section .sq-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #263238;
+    justify-content: center;
+    padding-top: 8px;
+    width: 120px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 15px black;
+    align-items: center;
+  }
+  .App section .sq-div p {
+    font-size: 16px;
+    font-weight: 450;
+    font-family: "Inter Tight", sans-serif;
+    color: #FFFFFF;
+  }
+  .App section .sq-div span {
+    font-size: 32px;
+    font-weight: 450;
+    font-family: "Inter Tight", sans-serif;
+    color: #FFFFFF;
+  }
+  .App .wallet {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    margin-top: 250px;
+    padding-bottom: 80px;
+  }
+  .App .wallet p {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-weight: 450px;
+    color: #FFFFFF;
+    width: 381px;
+    text-align: center;
+  }
+  .App .wallet button {
+    background-color: #72C9F1;
+    border: none;
+    border-radius: 12px;
+    width: 384px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    color: black;
+    padding: 15px;
+  }
 }/*# sourceMappingURL=App.css.map */
