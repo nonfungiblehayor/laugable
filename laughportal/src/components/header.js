@@ -1,7 +1,7 @@
 import React from 'react'
 import laugh from '../images/laugh.svg'
 
-function Header() {
+function Header(props) {
     return <header>
         <div>
             <img src={laugh} alt='laughing emoji'></img>

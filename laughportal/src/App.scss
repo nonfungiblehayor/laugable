@@ -8,7 +8,7 @@ $font: 'Inter Tight', sans-serif;;
     background-color: #24262D;
     display: flex;
     flex-direction: column;
-    background-image: url(./images/Ellipse\ 11.svg);
+    background-image: url(./images/Ellipse11.svg);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position-x: 130px;
@@ -159,14 +159,14 @@ $font: 'Inter Tight', sans-serif;;
     }
 }
 
-@media screen and(max-width: 1200px) and(min-width: 769px) {
+@media screen and (max-width: 1200px) and (min-width: 769px) {
  .App {
     padding: 0;
     margin: 0;
     background-color: #24262D;
     display: flex;
     flex-direction: column;
-    background-image: url(./images/Ellipse\ 11.svg);
+    background-image: url(./images/Ellipse11.svg);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position-x: 100px;
@@ -318,14 +318,14 @@ $font: 'Inter Tight', sans-serif;;
    }    
 }
 
-@media screen and(max-width: 768px) and(min-width: 582px) {
+@media screen and (max-width: 768px) and (min-width: 582px) {
     .App {
         padding: 0;
         margin: 0;
         background-color: #24262D;
         display: flex;
         flex-direction: column;
-        background-image: url(./images/Ellipse\ 11.svg);
+        background-image: url(./images/Ellipse11.svg);
         background-size: 70px;
         background-repeat: no-repeat;
         background-position-x: 70px;
@@ -478,14 +478,14 @@ $font: 'Inter Tight', sans-serif;;
     }    
 }
 
-@media screen and(max-width: 581px) and(min-width: 320px) {
+@media screen and (max-width: 581px) and (min-width: 320px) {
     .App {
         padding: 0;
         margin: 0;
         background-color: #24262D;
         display: flex;
         flex-direction: column;
-        background-image: url(./images/Ellipse\ 11.svg);
+        background-image: url(./images/Ellipse11.svg);
         background-size: 70px;
         background-repeat: no-repeat;
         background-position-x: 70px;
@@ -626,7 +626,7 @@ $font: 'Inter Tight', sans-serif;;
                 width: 281px;
                 text-align: center;
             }
-            button {
+            a {
                 background-color: #72C9F1;
                 border: none;
                 border-radius: 12px;
@@ -636,6 +636,7 @@ $font: 'Inter Tight', sans-serif;;
                 font-weight: 500px;
                 color: black;
                 padding: 15px;
+                text-decoration: none;
             }
         }        
     }    

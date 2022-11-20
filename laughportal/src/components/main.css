@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+body {
+  background-color: #24262D;
+}
+
+.App {
+  padding: 0;
+  margin: 0;
+  background-color: #24262D;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/Ellipse\ 11.svg);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position-x: 130px;
+  background-position-y: 150px;
+}
+.App header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
+}
+.App header .laugh-div {
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  justify-content: space-between;
+}
+.App header .laugh-div img {
+  width: 40px;
+  height: 40px;
+}
+.App header .laugh-div p {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter Tight", sans-serif;
+}
+.App header nav {
+  width: 170px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  height: 35px;
+  padding: 10px;
+  align-items: center;
+}
+.App header nav p {
+  width: 114px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  overflow: hidden;
+}
+.App header nav img {
+  width: 14px;
+  height: 14px;
+}
+.App section {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.App section .round-div {
+  display: flex;
+  flex-direction: column;
+}
+.App section .round-div nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 90px;
+  padding-left: 100px;
+  gap: 250px;
+  max-width: 100%;
+  margin-bottom: -60px;
+  transform: rotate(30deg);
+}
+.App section .round-div nav img {
+  width: 45.91px;
+  height: 45.88px;
+}
+.App section .round-div .round-emoji {
+  width: 500px;
+  height: 500px;
+  border-radius: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: -150px;
+}
+.App section .round-div .round-emoji img {
+  width: 368px;
+  height: 368px;
+}
+.App section .round-div .dot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -30px;
+  padding-left: 0;
+  gap: 380px;
+  max-width: 100%;
+  transform: rotate(20deg);
+}
+.App section .round-div .dot img {
+  width: 45.91px;
+  height: 45.88px;
+}
+.App section .sq-div {
+  display: none;
+}
+.App .section3 {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+.App .section3 h3 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+.App .section3 div {
+  width: 665px;
+  text-align: center;
+}
+.App .section3 div p {
+  font-size: 24px;
+  font-weight: 450;
+  color: #FFFFFF;
+  line-height: 30.36px;
+}
+.App .section3 button {
+  border: none;
+  background-color: #72C9F1;
+  width: 384px;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+  border-radius: 12px;
+}
+.App table {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

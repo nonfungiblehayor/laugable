@@ -623,7 +623,7 @@
     width: 281px;
     text-align: center;
   }
-  .App .wallet button {
+  .App .wallet a {
     background-color: #72C9F1;
     border: none;
     border-radius: 12px;
@@ -633,5 +633,6 @@
     font-weight: 500px;
     color: black;
     padding: 15px;
+    text-decoration: none;
   }
 }/*# sourceMappingURL=App.css.map */
